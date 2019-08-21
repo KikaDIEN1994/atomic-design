@@ -1,9 +1,51 @@
 /* .class et #pour les id */ 
-.nav-link{
-    background-color: yellow;
+/*##################################################### NAVBAR ########################################## */ 
+.mynav{  /*background navbar*/
+    background-image: url(../img/navscreen.jpg);
+    height: 700px;
+}
+.navbar{ /*navbar transparent don't work*/
+    background: none !important;
 }
 
-.form{
-    text-align: center ;
+.navbar .navbar-brand{ /*navbar white don't work*/
+    color: #FFF;
+    font-weight: bolder;
+    font-size: 2em;
 }
 
+.navbar a{ /*navbar text color*/
+    color: rgb(26, 29, 134) !important;
+}
+
+.navbar .navbar-nav{ /*navbar align text to the right*/
+    margin: 0 950px;
+}
+/*##################################################### LOGIN Sign up ########################################## */ 
+.bg{ /*background login*/
+    background: url(../img/navscreen.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.form-container{ /*square around login and sign up*/
+    padding: 50px 60px;
+    margin-top: 20vh;
+    -webkit-box-shadow: -1px -4px 26px 9px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -4px 26px 9px rgba(0,0,0,0.75);
+box-shadow: -1px -4px 26px 9px rgba(0,0,0,0.75);
+}
+
+*{color: black;} /*color text*/
+
+/*##################################################### JUMBOTRON ########################################## */ 
+
+.jumbotron{
+    background: url(../img/navscreen.jpg);
+}
+
+.jumbotron-md{
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
